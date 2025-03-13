@@ -27,7 +27,7 @@
         $celciusTemperatureValue = $_POST["temperatureInput"];
 
         function calculateCelsiusToFahrenheit($celciusTemperatureValue){
-            $fahrenheitTemperatureValue = (9 / 5) * $celciusTemperatureValue + 32;
+            $fahrenheitTemperatureValue = (9 * $celciusTemperatureValue + 160) / 5;
             return($fahrenheitTemperatureValue);
         };
 
