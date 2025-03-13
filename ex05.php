@@ -36,7 +36,5 @@
         $valueB = $valueHolder;
 
         echo "<br>Inverted Values: <br>" . $valueA . "<br>" . $valueB;
-
-
     }
 ?>
